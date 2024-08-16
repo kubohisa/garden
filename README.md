@@ -3,7 +3,7 @@ MSX Freeware Distribution "garden".
 ![image](https://github.com/user-attachments/assets/876911b3-5c23-4b55-94ad-20b1234a78a1)
 ![OIG1 irGV4r0iv6](https://github.com/user-attachments/assets/0b619fbb-9d21-4f6d-9a63-fa1724d46ebb)
 
-Pages: https://kubohisa.github.io/garden/exec/
+[Gardenを使う](https://kubohisa.github.io/garden/exec/) | [Download](https://kubohisa.github.io/garden/exec/garden.dsk)
 
 MSXのロストテクノロジーでオーパーツなフリーウェアをWEBMSXのディスクイメージでまとめました。昔のパソコンオタクを追体験できます
 
