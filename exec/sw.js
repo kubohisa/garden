@@ -1,7 +1,6 @@
 var CACHE_NAME = 'msx-garden-240830f';
 
 var filesToCache = [
-  '/',
   '/sw.js',
   '/sw_boot.js',
   '/favicon.ico',
