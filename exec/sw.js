@@ -1,18 +1,19 @@
 var CACHE_NAME = 'msx-garden-240830f';
 
 var filesToCache = [
+  '/',
   '/sw.js',
   '/sw_boot.js',
   '/favicon.ico',
   '/garden.dsk',
   '/index.html',
-  '/js/wmsx.js'
+  '/js/wmsx.js',
 ];
 
 self.addEventListener('install', function(e) {
 	e.waitUntil(
 		caches.open(CACHE_NAME).then(function(cache) {
-			return cache.addAll(filesToCache.map(url => new Request(url, {credentials: 'same-origin'})));
+			return cache.addAll(filesToCache);
 		})
 	);
 });
