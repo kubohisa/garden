@@ -12,7 +12,7 @@ var filesToCache = [
 self.addEventListener('install', function(e) {
 	e.waitUntil(
 		caches.open(CACHE_NAME).then(function(cache) {
-			return cache.addAll(filesToCache);
+			return cache.addAll(filesToCache.map(url => new Request(url, {credentials: 'same-origin'})));
 		})
 	);
 });
