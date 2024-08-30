@@ -1,9 +1,9 @@
-var CACHE_NAME = 'msx-garden-240830c';
+var CACHE_NAME = 'msx-garden-240830d';
 
 var filesToCache = [
   '/',
-  '../js/sw.js',
-  '../js/sw_boot.js',
+  '/js/sw.js',
+  '/js/sw_boot.js',
   '../favicon.ico',
   '/garden.dsk',
   '/index.html'
@@ -45,3 +45,4 @@ self.addEventListener('fetch', function(e) {
 		})
 	);
 });
+
