@@ -4,7 +4,7 @@ var filesToCache = [
   '/',
   '/js/sw.js',
   '/js/sw_boot.js',
-  '../favicon.ico',
+  '/favicon.ico',
   '/garden.dsk',
   '/index.html'
 ];
