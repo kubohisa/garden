@@ -3,7 +3,9 @@ var filesToCache = [
   '/',
   '/index.html',
   '/js/sw.js',
-  '/favicon.ico'
+  '/js/sw_boot.js',
+  '/favicon.ico',
+  '/exec/garden.dsk'
 ];
 
 self.addEventListener('install', function(e) {
