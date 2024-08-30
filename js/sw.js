@@ -1,13 +1,12 @@
-var CACHE_NAME = 'msx-garden-240830a';
+var CACHE_NAME = 'msx-garden-240830b';
 
 var filesToCache = [
   '/',
-  '/index.html',
-  '/js/sw.js',
-  '/js/sw_boot.js',
-  '/favicon.ico',
-  '/exec/garden.dsk',
-  '/exec/index.html'
+  '../js/sw.js',
+  '../js/sw_boot.js',
+  '../favicon.ico',
+  '/garden.dsk',
+  '/index.html'
 ];
 
 self.addEventListener('install', function(e) {
