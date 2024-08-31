@@ -1,10 +1,10 @@
 {
     "short_name": "SynbOS Ver.3.",
-    "name": "(bit GUI OS - SynbOS Ver.3. for msx.",
+    "name": "8bit GUI OS - SynbOS Ver.3. for msx.",
 	
     "display": "standalone",
     "start_url": "index.html",
-	"scope": "/",
+	"scope": "./",
 	
 	"background_color": "#ffffff",
 	"theme_color": "#ffffff",
