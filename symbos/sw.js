@@ -1,4 +1,4 @@
-var CACHE_NAME = 'msx-SymbOS-240901d';
+var CACHE_NAME = 'msx-SymbOS-240901e';
 
 var filesToCache = [
   './',
