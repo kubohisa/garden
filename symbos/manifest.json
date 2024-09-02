@@ -1,6 +1,7 @@
 {
     "short_name": "SynbOS Ver.3.",
     "name": "8bit GUI OS - SynbOS Ver.3. for msx.",
+	"id": "KUBOHISAGITHUBCOM_SYBOSWEB",
 	
     "display": "standalone",
     "start_url": "index.html",

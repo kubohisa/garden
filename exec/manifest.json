@@ -1,6 +1,7 @@
 {
     "short_name": "Garden.",
     "name": "MSX Freeware Distribution - Garden.",
+	"id": "KUBOHISAGITHUBCOM_GARDEN",
 	
     "display": "standalone",
     "start_url": "index.html",
