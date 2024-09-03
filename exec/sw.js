@@ -1,4 +1,4 @@
-var CACHE_NAME = 'msx-garden-240902_';
+var CACHE_NAME = 'msx-garden-240903';
 
 var filesToCache = [
   './',
@@ -13,7 +13,7 @@ var filesToCache = [
 self.addEventListener('install', function(e) {
 	e.waitUntil(
 		caches.open(CACHE_NAME).then(function(cache) {
-			return cache.addAll(filesToCache);
+			return cache.addAll(filesToCache).then(() => self.skipWaiting());
 		})
 	);
 });
