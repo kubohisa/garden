@@ -3,6 +3,11 @@
     "name": "MSX Freeware Distribution - Garden.",
 	"id": "KUBOHISAGITHUBCOM_GARDEN",
 	
+	"description": "Garden is MSX Freeware Distribution for your browser.",
+	"categories": "utilities",
+	
+	"lang": "en-US",
+	
     "display": "standalone",
     "start_url": "index.html",
 	"scope": "./",
@@ -26,7 +31,6 @@
 			"sizes": "1000x770",
 			"type": "image/png"
 		}
-	],
+	]
 
-	"description": "Garden is MSX Freeware Distribution for your browser."
 }
