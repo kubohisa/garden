@@ -3,7 +3,7 @@
     "name": "8bit GUI OS - SynbOS Ver.3. for msx.",
 	"id": "KUBOHISAGITHUBCOM_SYBOSWEB",
 	
-	"categories": "utilities",
+	"categories": ["utilities"],
 	
 	"lang": "en-US",
 	

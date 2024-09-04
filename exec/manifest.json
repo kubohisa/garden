@@ -4,7 +4,7 @@
 	"id": "KUBOHISAGITHUBCOM_GARDEN",
 	
 	"description": "Garden is MSX Freeware Distribution for your browser.",
-	"categories": "utilities",
+	"categories": ["utilities"],
 	
 	"lang": "en-US",
 	
