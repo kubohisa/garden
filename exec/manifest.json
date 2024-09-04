@@ -20,6 +20,11 @@
 			"src": "../images/garden_capture.png",
 			"sizes": "1000x770",
 			"type": "image/png"
+		},
+		{
+			"src": "../images/garden_capture_a.png",
+			"sizes": "1000x770",
+			"type": "image/png"
 		}
 	],
 
