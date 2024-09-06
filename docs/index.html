@@ -8,10 +8,10 @@
 <title>MSX Freeware Distribution - Garden.</title>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous"></script>
 
 <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
 <link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon">
@@ -37,6 +37,21 @@ body {
 	color: transparent;
 	text-shadow: 0 0 0px rgba(0,0,0,0.7);
 }
+
+.top-bar {
+	background: rgba(0,0,0,0);
+	padding: 0px;
+	margin: 0px;
+	ul {
+		background: rgba(0,0,0,0);
+		li {
+			background: rgba(0,0,0,0);
+			a {
+				color: $menu-item-color-active;
+			}
+		}
+	}
+}
 </style>
 
 </head>
@@ -52,22 +67,28 @@ body {
 <div class="grid-x grid-margin-x">
 
 <div class="cell 12">
-<p> </p>
 
-<ul class="vertical menu" data-responsive-menu="medium-accordion" style="max-width: 250px;">
-  <li>
-    <a href="#" style="font-weight: bold; font-size: 2;">☰ MENU.</a>
-    <ul class="vertical menu">
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="menu" data-dropdown-menu>
+      <li class="menu-text">COMMAND?></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
   <li><a href="#about">About</a></li>
   <li><a href="#download">Download</a></li>
   <li><a href="https://github.com/kubohisa/garden">Github</a></li>
     </ul>
-  </li>
-</ul>
+  </div>
+</div>
 
-<p><img src="images/title.png" style="width: 100%;"></p>
+<p>
+<img src="images/title.png" style="width: 100%;">
+</p>
 
-<p> </p>
+<p> <br/> </p>
+
 </div>
 
 <div class="cell 12 text-center">
@@ -143,7 +164,7 @@ WEBMSXなどで使えるハードディスク・イメージディスクをダ�
 </div>
 
 <script>
-	$(document).foundation();
+    $(document).foundation();
 </script>
 
 </body>
