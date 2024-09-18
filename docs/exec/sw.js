@@ -1,4 +1,4 @@
-var CACHE_NAME = 'msx-garden-240918a';
+var CACHE_NAME = 'msx-garden-240918b';
 
 var filesToCache = [
   './',
